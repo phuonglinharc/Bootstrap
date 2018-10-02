@@ -1,0 +1,31 @@
+
+}body{
+    background-color: #fff !important;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("../images/parallax-01.jpg");
+
+    /* Set a specific height */
+    height: 384px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
