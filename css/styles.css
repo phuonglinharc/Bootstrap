@@ -1,6 +1,7 @@
 
 }body{
     background-color: #fff !important;
+    font-size: 18px;
 }
 
 .col-centered {
@@ -24,8 +25,32 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.padding-y{
+    padding: 130px 0;
+}
+.relative{
+    position: relative;
+}
+.gray-bg{
+    background: #f8f8f8 ;
+}
+.bg-cover{
+    background: url(../images/home-default-1-960x640.jpg);
+    min-height: 100%;
+    width: 50vw;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+}
 @media only screen and (max-device-width: 1366px) {
     .parallax {
         background-attachment: scroll;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        width: 1400px;
     }
 }
